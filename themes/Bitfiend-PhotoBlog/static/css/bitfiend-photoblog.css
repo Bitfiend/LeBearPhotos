@@ -1,0 +1,120 @@
+body{
+    background-color: var(--BackgroundColor);
+    background-image: url(/images/Background.jpg);
+}
+
+p, li{
+    font-size: var(--Tinier) !important;
+}
+
+a{
+    color: var(--PrimaryColorGrey) !important;
+}
+
+a:hover{
+    color: var(--PrimaryColor) !important;
+}
+
+.largest{
+    font-size: var(--Largest) !important;
+}
+
+.larger{
+    font-size: var(--Larger) !important;
+}
+
+.large{
+    font-size: var(--Large) !important;
+}
+
+.medium{
+    font-size: var(--Medium) !important;
+}
+
+.small{
+    font-size: var(--Small) !important;
+}
+
+.smaller{
+    font-size: var(--Smaller) !important;
+}
+
+.smallest{
+    font-size: var(--Smallest) !important;
+}
+
+.tiny{
+    font-size: var(--Tiny) !important;
+}
+
+.tinier{
+    font-size: var(--Tinier) !important;
+}
+
+.tiniest{
+    font-size: var(--Tiniest) !important;
+}
+
+.breadcrumb a{
+    color: var(--Light) !important;
+    font-size: var(--Tiny) !important;
+    text-transform: capitalize;
+}
+
+.breadcrumb a:hover{
+    color: White !important;
+}
+
+.breadcrumb .fa-chevron-right{
+    color: white !important;
+    font-size: var(--Tiniest) !important;
+}
+
+.brand .header{
+    color: var(--PrimaryColorGrey);
+}
+
+.brand .header:hover{
+    color: var(--PrimaryColor);
+}
+
+.nav-item .icon{
+    color: var(--PrimaryColorGrey) !important;
+}
+
+.nav-item .icon:hover{
+    color: var(--PrimaryColor) !important;
+}
+
+.nav-item {
+    color: var(--Light) !important;
+}
+
+.nav-item:hover{
+    color: White !important;
+}
+
+.itemTitle{
+    color: var(--PrimaryColor) !important;
+}
+
+.sub{
+    letter-spacing: 1px !important;
+    color: var(--GreyPrimary) !important;
+}
+
+.input{
+    background-color: var(--VeryLight) !important;
+}
+
+input{
+    border: 0px !important;
+}
+
+::placeholder{
+    color: var(--GreyPrimaryDark) !important;
+}
+
+.footer{
+    background-color: var(--PrimaryColorDark) !important;
+}

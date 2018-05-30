@@ -1,0 +1,30 @@
+{{ define "main" }}
+    {{ $baseURL := .Site.BaseURL }}
+    <div class="ui inverted segment">
+        <div class="ui inverted large centered header">
+            {{ .Params.Title }}
+        </div>
+    </div>
+
+    <div class="ui segment">
+        <img
+            class="ui medium centered image " 
+            src="{{ .Site.BaseURL }}photos/{{ .Params.File }}" 
+            alt="{{ .Params.Description }}"
+        />
+    </div>
+
+    <div class="ui segment">
+        {{ .Params.Description }}
+    </div>
+
+    <div class="ui segment">
+        <div class="ui list horizontal">
+            {{ range .Params.Albums }}
+                <div class="item">
+                    <a href="{{ $baseURL }}album/{{ . }}">{{ . }}</a>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+{{ end }}

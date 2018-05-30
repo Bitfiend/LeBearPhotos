@@ -1,0 +1,24 @@
+:root{
+    --BackgroundColor: hsl(300, 17%, 24%);
+    --PrimaryColor: hsl(291, 100%, 50%);
+    --PrimaryColorGrey: hsl(291, 100%, 40%);
+    --PrimaryColorDark: hsl(291, 7%, 15%);
+
+    --GreyPrimary: hsl(291, 20%, 70%);
+    --GreyPrimaryLight: hsl(291, 20%, 85%);
+    --GreyPrimaryDark: hsl(291, 15%, 60%);
+
+    --VeryLight: hsl(291, 15%, 95%);
+    --Light: hsl(291, 0%, 70%);
+
+    --Tiniest: 12px;
+    --Tinier: 16px;
+    --Tiny: 18px;
+    --Smallest: 20px;
+    --Smaller: 24px;
+    --Small: 30px;
+    --Medium: 36px;
+    --Large: 40px;
+    --Larger: 60px;
+    --Largest: 72px;
+ }

@@ -1,0 +1,12 @@
+name = "Bitfiend PhotoBlog"
+license = "Apache 2.0"
+licenselink = "https://github.com/Bitfiend/Bitfiend-PhotoBlog/LICENSE.md"
+description = "Theme for a hugo based photo blogging website."
+homepage = "https://github.com/Bitfiend/Bitfiend-PhotoBlog"
+tags = []
+features = []
+min_version = "0.38"
+
+[author]
+  name = "Bitfiend Coder"
+  homepage = "https://me.bitfiend.com"

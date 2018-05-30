@@ -1,0 +1,63 @@
+baseURL = "https://festive-wiles-86ade8.netlify.com/"
+languageCode = "en-us"
+title = "Le Bear Photos"
+theme = "Bitfiend-PhotoBlog"
+
+[params]
+    name = "Lynn Bear"
+    headline = "Taking you closer to places I love."
+    description = "I am a kind hearted girl with a passion for photography and exploring nature. I created this site to share with you some of my favorite photos and locations that I've been. So I hope you'll join me and we can explore these wonderful locations through the lens of life."
+    email = "spottedwolf92@yahoo.com"
+    NotFoundText = "Uh oh... looks like the page your looking for isn't here."
+
+    [params.navigation]
+        link = "/"
+            [params.navigation.right]
+                [[params.navigation.right.links]]
+                    title = "Albums"
+                    prefix = "fa"
+                    icon = "camera-retro"
+                    link = "/album"
+                [[params.navigation.right.links]]
+                    title = "Updates"
+                    prefix = "fab"
+                    icon = "readme"
+                    link = "/update"
+                [[params.navigation.right.links]]
+                    title = "Contact"
+                    prefix = "far"
+                    icon = "envelope"
+                    link = "/contact"
+            [params.navigation.social]
+            title = "Social Media"
+            prefix = "fas"
+            icon = "link"
+            [[params.navigation.social.links]]
+                title = "LinkedIn"
+                prefix = "fab"
+                icon = "linkedin"
+                link = "https://www.linkedin.com/in/amos-garner-34630694/"
+            [[params.navigation.social.links]]
+                title = "Twitter"
+                prefix = "fab"
+                icon = "twitter-square"
+                link = "https://twitter.com/BitFiendCoder"
+            [[params.navigation.social.links]]
+                title = "Github"
+                prefix = "fab"
+                icon = "github-square"
+                link = "https://github.com/AmosGarner"
+    [params.index]
+        [params.index.column1]
+            title = "My Albums"
+            description = "A Collection of photo albums that I've compiled from my travels."
+            link = "/album"
+            link_text = "Learn More"
+        [params.index.column2]
+            title = "Site Updates"
+            description = ""
+            link = "/update"
+            link_text = "Learn More"
+
+    [params.footer]
+        location = "TN"
